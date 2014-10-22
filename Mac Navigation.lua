@@ -14,7 +14,7 @@ function activeAppName()
 end
 
 function onPoseEdge(pose, edge)
-	myo.debug("onPoseEdge: " .. pose .. ": " .. edge)
+	myo.debug("onPoseEdge: " .. pose .. ": " .. edge) 
 	
 	pose = conditionallySwapWave(pose)
 	
